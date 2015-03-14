@@ -33,8 +33,8 @@ app.use(session({
     store: new MongoStore({
         db: settings.dbName,
         url: "mongodb://" + settings.host + ":" + settings.port + "/" + settings.dbName,
-        username: settings.username,
-        password: settings.password
+        // username: settings.username,
+        // password: settings.password
     })
 }));
 app.use(flash());
