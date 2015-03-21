@@ -9,7 +9,7 @@ PS:
 
 2.可视化操作Mongodb， 建议使用 “MongoVUe”。
 
-#### 本地部署（win8 64bit为例）：
+#### 本地部署（win7 64bit为例）：
 
 * 确保本地已安装 git 以及 node 环境，在某文件夹 运行`git clone https://github.com/wteam-xq/microBlog.git` 下载该项目
 * 运行cmd 进入“microBlog”文件夹， 运行 `npm install`安装依赖模块
